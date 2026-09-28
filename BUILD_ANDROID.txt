@@ -1,0 +1,20 @@
+BUILD / INSTALL FOR ANDROID 2.2074
+
+The source package is not a .geode binary yet. A .geode package must be compiled with the Geode SDK + Android NDK.
+
+Official Geode docs:
+https://github.com/geode-sdk/docs/blob/main/getting-started/create-mod.md
+
+On a PC:
+1. Install the Geode CLI and Android NDK.
+2. In this project folder run:
+   geode sdk install-binaries -p android64
+3. Build:
+   geode build -p android64
+4. Find the generated .geode file in build-android64/.
+5. Copy it to:
+   /storage/emulated/0/Android/media/com.geode.launcher/game/geode/mods/
+6. Open Geometry Dash through Geode Launcher.
+7. Open a level, pause, and use the Click ON/OFF and Showcase buttons.
+
+If your phone uses 32-bit Android, build with android32 instead.

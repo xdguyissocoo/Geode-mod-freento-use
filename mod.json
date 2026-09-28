@@ -1,0 +1,12 @@
+{
+  "geode": "v4.10.2",
+  "gd": { "android": "2.2074" },
+  "id": "archavee.click-indicator-showcase",
+  "name": "Click Indicator + Showcase",
+  "version": "v1.0.0",
+  "developer": "Archavee",
+  "description": "Cyan click indicator with pause-menu toggle and a built-in showcase demo.",
+  "resources": {
+    "sprites": ["resources/click-ring.png"]
+  }
+}
